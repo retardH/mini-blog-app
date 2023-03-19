@@ -19,7 +19,7 @@ const Create = () => {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(blog),
-        }).then((res) => {
+        }).then(() => {
             console.log("a new blog added");
             setIsPending(false);
             history.push('/');

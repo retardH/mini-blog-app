@@ -25,3 +25,6 @@ yarn-error.log*
 README.md
 package-lock.json
 package.json
+
+README.md
+node_modules
